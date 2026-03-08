@@ -2,7 +2,7 @@ name: The Keeper 24/7 Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'  # สั่งรันอัตโนมัติทุกต้นชั่วโมง
+    - cron: '*/10 * * * *'  # สั่งรันอัตโนมัติทุกต้นชั่วโมง
   workflow_dispatch:      # ปุ่มกดรันเองเพื่อทดสอบ
 
 jobs:
